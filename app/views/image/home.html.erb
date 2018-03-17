@@ -1,0 +1,11 @@
+<div class="entry">
+  <h3 class="h3">Images</h3>
+  <div class="outer">
+    <%= @images.each do |src| %>
+      <img src="<%= src %>">
+      <br>
+    <% end %>
+  </div>
+</div>
+
+<p class="source">Scraped from <a target="_blank" href="http://www.snowtours.com/">snowtours.com</a></p>
