@@ -3,11 +3,12 @@ body {
     color: white;
     font-size: 62.5%;
 }
+img {
+  max-width: 100%;
+}
 .entry {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 40px;
 }
 .entry .h3 {
     text-align: center;
@@ -15,7 +16,7 @@ body {
     letter-spacing: 2px;
 }
 .outer {
-
+  margin: 20px;
 }
 .outer p {
     text-align: center;
