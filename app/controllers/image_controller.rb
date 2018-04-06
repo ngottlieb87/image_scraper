@@ -10,7 +10,7 @@ class ImageController < ApplicationController
     images.each do |image|
       x = image.select { |k,v| ["name", "src"].include?(k) }
       if (x[0][1].include? "dog")
-        @images.push(image.values[2])
+        @images.push(x[0][1])
       else
         @images.push('No Dog!!!')
       end
